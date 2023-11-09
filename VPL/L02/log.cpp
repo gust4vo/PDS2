@@ -9,7 +9,6 @@ int main () {
 
     while (input != "END") {
         vector<string> log;
-
         while (input != "LOG") {
             if (input == "DEL") {
                 log.clear();

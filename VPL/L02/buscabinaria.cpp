@@ -1,6 +1,10 @@
 #include <vector>
 #include <iostream>
+#include "teste.hpp"
 
+void pp::sd(int n){
+    std::cout << n+1;
+}
 
 std::vector<int> busca_binaria(std::vector<int> &v, int x){
     int i = 0, j = v.size()-1;
